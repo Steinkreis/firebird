@@ -82,7 +82,7 @@ table = engine.DataFrame("SELECT * FROM Kunde")
 ### drop_all
 
 Mit der drop_all Methode kann eine Datenbank schnell bereinigt werden.  
-Dabei werden alle erstellten Tabellen und Domains entfernt.  
+Dabei werden alle erstellten Tabellen und Domänen entfernt.  
 
 ```python
 
