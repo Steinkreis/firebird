@@ -64,6 +64,7 @@ Bei mir lag die Client Datei z.B. direkt im Installationsordner von Firebird_4_0
 Den Pfad für die .FDB solltet ihr beim Erstellen der Datenbank selbst ausgewählt haben.  
 Achtet bitte darauf, wenn ihr Pfade mit Backslashes benutzt, daraus einen Raw-String zu machen um mögliche Probleme zu vermeiden.  
 Die Grundlage bildet die Firebird_Engine Klasse. Wir müssen eine Instanz davon erstellen um eine Verbindung mit der Datenbank herzustellen.  
+Wichtig an dieser Stelle zu erwähnen ist, dass eine Verbindung über Python und IBExpert gleichzeitig nicht möglich ist. Die Verbindung bei IBExpert muss also vorher getrennt werden.
 
 ```python
 from firebird import Firebird_Engine
