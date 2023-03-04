@@ -35,7 +35,7 @@ conda activate env_32bit
 Navigiert in euer gewünschtes Verzeichnis und klont anschließend das Projekt mit folgendem Befehl:
 
 ```bash
-git clone
+git clone git@github.com:Steinkreis/firebird.git
 ```
 
 Navigiert in den Projektordner.
