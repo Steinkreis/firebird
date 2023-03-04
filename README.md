@@ -38,6 +38,12 @@ Navigiert in euer gewünschtes Verzeichnis und klont anschließend das Projekt m
 git clone git@github.com:Steinkreis/firebird.git
 ```
 
+oder alternativ per https:
+
+```bash
+git clone https://github.com/Steinkreis/firebird.git
+```
+
 Navigiert in den Projektordner.
 
 ```bash
