@@ -1,9 +1,10 @@
 # firebird
 
-## Voraussetungen!
+## Voraussetzungen!
 Firebird muss bei euch lokal installiert sein.  
 Außerdem müsst ihr bei der Erstellung der Datenbank die default Werte aus der Anleitung angegeben haben.  
-Der Benutzername muss also "SYSDBA" und das Passwort "masterkey" sein.
+Der Benutzername muss also "SYSDBA" und das Passwort "masterkey" sein.  
+Des Weiteren wird eine Anaconda/Miniconda Distribution benötigt.
 
 ## Erstellen eines 32bit Python virtual envs (mit Conda)
 
