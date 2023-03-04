@@ -1,0 +1,5 @@
+furl==2.1.3
+pandas==1.5.3
+SQLAlchemy==1.4.44
+sqlalchemy-firebird==0.7.6
+wincertstore==0.2
