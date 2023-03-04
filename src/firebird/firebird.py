@@ -84,17 +84,3 @@ class Firebird_Engine:
         queries = [sql for sql in [s.strip() for s in query.split(";")] if sql !='']
         for single_query in queries:
             self.engine.execute(text(single_query))
-
-def main():
-    engine = Firebird_Engine(
-        'D:/Dateien/Firebase/FAHRZEUGE.FDB',
-        r'D:\Programme\Firebird_4_0\fbclient.dll'
-    )
-    engine.drop_all()
-
-    with open('fahrzeuge.sql', 'r') as text:
-        query = text.read()
-    engine.run_query(query)
-
-if __name__=='__main__':
-    main()
